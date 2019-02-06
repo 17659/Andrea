@@ -19,11 +19,30 @@ form fieldset legend {
   font-size: 2.5em;
 }
 
+label {
+  float: left;
+  width: 195px;
+  text-align: right;
+  margin-left: 100px;
+}
+
+form fieldset div {
+  clear: both;
+  padding: 5px 0;
+}
+
 form fieldset input[type="reset"] {
-  background-color: red;
+  background-color: black;
+  color: red;
+  float: left;
+  width: 95px;
+  margin-left: 250px;
 }
 
 form fieldset input[type="submit"] {
-  background-color: lightgreen;
-  color: blue;
+  background-color: black;
+  color: lightblue;
+  float: left;
+  width: 95px;
+
 }
