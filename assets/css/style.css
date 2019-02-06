@@ -1,1 +1,29 @@
 @import url(reset.css);
+
+body {
+  color: black;
+  font-size: 14px;
+}
+
+main {
+  padding: 20px;
+}
+
+
+form fieldset {
+  outline: 2px dotted purple;
+  padding: 10px;
+}
+
+form fieldset legend {
+  font-size: 2.5em;
+}
+
+form fieldset input[type="reset"] {
+  background-color: red;
+}
+
+form fieldset input[type="submit"] {
+  background-color: lightgreen;
+  color: blue;
+}
